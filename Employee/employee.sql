@@ -1,3 +1,6 @@
+/* there are tables like employee, dept_emp, department,manager_emp,salaries,title_emp */
+
+
 /* list employees joined in 1984  */
 SELECT  CONCAT(first_name," ",last_name)
 AS NAME,YEAR(hire_date)AS joining_year FROM employee WHERE hire_date BETWEEN
